@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+"title": "Главная",
+})
+
+<body>
+   <div class="wrapper">
+      @@include('html/header.html', {})
+      <main class="main">
+         <div class="backdrop"></div>
+         <div class="catalog">
+            <div class="catalog__title">
+               Хиты продаж
+            </div>
+            <div class="catalog__subtitle">Выбор наших покупателей</div>
+            <ul class="catalog__list">
+               <!-- <li class="catalog__item product-card">
+                  <div class="product-card__header">
+                     <ul class="product-card__labels">
+                        <li class="product-card__label">Хит продаж</li>
+                     </ul>
+                     <ul class="product-card__actions">
+                        <li class="product-card__action">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                              fill="none">
+                              <mask id="path-1-inside-1_2616_2171" fill="white">
+                                 <rect x="3" y="9" width="7" height="12" rx="1" />
+                              </mask>
+                              <rect x="3" y="9" width="7" height="12" rx="1" stroke="#AFB0B2" stroke-width="4"
+                                 mask="url(#path-1-inside-1_2616_2171)" />
+                              <mask id="path-2-inside-2_2616_2171" fill="white">
+                                 <rect x="14" y="2" width="7" height="19" rx="1" />
+                              </mask>
+                              <rect x="14" y="2" width="7" height="19" rx="1" stroke="#AFB0B2" stroke-width="4"
+                                 mask="url(#path-2-inside-2_2616_2171)" />
+                           </svg>
+                        </li>
+                        <li class="product-card__action">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                              fill="none">
+                              <path
+                                 d="M16.5 3C19.538 3 22 5.5 22 9C22 14.8727 16.7211 18.6338 13.5446 20.5787C12.5997 21.1572 11.4003 21.1572 10.4554 20.5787C7.27886 18.6338 2 14.8727 2 9C2 5.5 4.5 3 7.5 3C9.36 3 11 4 12 5C13 4 14.64 3 16.5 3ZM12.934 18.604C13.815 18.048 14.61 17.495 15.354 16.903C18.335 14.533 20 11.943 20 9C20 6.64 18.463 5 16.5 5C15.424 5 14.26 5.57 13.414 6.414L12 7.828L10.586 6.414C9.74 5.57 8.576 5 7.5 5C5.56 5 4 6.656 4 9C4 11.944 5.666 14.533 8.645 16.903C9.39 17.495 10.185 18.048 11.066 18.603C11.2064 18.6917 11.3461 18.7787 11.4899 18.8669C11.8029 19.0589 12.197 19.0588 12.5101 18.867C12.6539 18.779 12.7936 18.6923 12.934 18.604Z"
+                                 fill="#AFB0B2" />
+                           </svg>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="product-card__image">
+                     <img src="img/cart1.jpg" alt="">
+                  </div>
+                  <div class="product-card__info info-product">
+                     <div class="info-product__header">
+                        <div class="info-product__available">В наличии</div>
+                        <div class="info-product__articul">Арт.: 127456</div>
+                     </div>
+                     <div class="info-product__naming">
+                        <div class="info-product__title">Браво-22 Snow Melinga
+                           / Magic Fog</div>
+                        <div class="info-product__category">Межкомнатная дверь</div>
+                     </div>
+                     <div class="info-product__main">
+                        <button class="info-product__cart" id="addToCart">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                              fill="none">
+                              <g clip-path="url(#clip0_2616_2154)">
+                                 <path
+                                    d="M1 1H5V15.5C5 15.7761 5.22386 16 5.5 16H19.1802C19.6569 16 20.0673 15.6635 20.1608 15.1961L21.8804 6.59806C21.9423 6.28866 21.7056 6 21.3901 6H5"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                 <path
+                                    d="M6 22C6.55228 22 7 21.5523 7 21C7 20.4477 6.55228 20 6 20C5.44772 20 5 20.4477 5 21C5 21.5523 5.44772 22 6 22Z"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                 <path
+                                    d="M17 22C17.5523 22 18 21.5523 18 21C18 20.4477 17.5523 20 17 20C16.4477 20 16 20.4477 16 21C16 21.5523 16.4477 22 17 22Z"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              </g>
+                              <defs>
+                                 <clipPath id="clip0_2616_2154">
+                                    <rect width="24" height="24" fill="white" />
+                                 </clipPath>
+                              </defs>
+                           </svg>
+                        </button>
+                        <div class="info-product__price">
+                           <span class="actual">180 600 ₽</span>
+                           <span class="old">18 600 ₽</span>
+                        </div>
+                     </div>
+                     <a href="#" class="info-product__buy">
+                        Купить в один клик
+                     </a>
+                  </div>
+               </li> -->
+            </ul>
+         </div>
+         <div class="modal callback-modal" id="callbackModal">
+            <div class="modal__content callback-modal__content">
+               <div class="modal__close callback-modal__close">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                     <path d="M7 7L17 17" stroke="#222427" stroke-width="2" stroke-linecap="round" />
+                     <path d="M17 7L7 17" stroke="#222427" stroke-width="2" stroke-linecap="round" />
+                  </svg>
+               </div>
+               <div class="callback-modal__wrapper">
+                  <div class="callback-modal__title">Заполните данные и мы свяжемся с вами в рабочее время и ответим на
+                     все
+                     интересующие вопросы</div>
+                  <form class="callback-modal__form">
+                     <div class="callback-modal__inputs">
+                        <div class="callback-modal__input">
+                           <input type="text" placeholder="Имя*" name="nameInput" id="name" data-vaildate-field="name">
+                        </div>
+                        <div class="callback-modal__input">
+                           <input type="tel" placeholder="Телефон*" name="phoneInput" id="phone"
+                              data-vaildate-field="tel">
+                        </div>
+                     </div>
+                     <div class="callback-modal__checkbox callback-checkbox">
+                        <input type="checkbox" name="isAgree" id="isAgree">
+                        <label for="isAgree">
+                           <div class="callback-checkbox__box">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none">
+                                 <rect x="2" y="2" width="20" height="20" rx="4" fill="#8BBF1F" />
+                                 <path d="M7 11L11 15L18 8" stroke="white" stroke-width="2" stroke-linecap="round" />
+                              </svg>
+                           </div>
+                           <div class="callback-checkbox__text">Даю свое согласие на обработку персональных данных</div>
+                        </label>
+                     </div>
+                     <button class="callback-modal__btn" type="submit">Заказать звонок</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </main>
+      @@include('html/footer.html', {})
+   </div>
+   <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+   <script src="https://unpkg.com/imask"></script>
+   <script src="js/app.min.js"></script>
+</body>
+
+</html>
